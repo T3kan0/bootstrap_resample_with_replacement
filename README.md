@@ -8,6 +8,7 @@ A combination of codes developed for the calculation of the cross-correlation co
 ## Software Requirements 🔌
 You will need to install the following software on your system in order to run/edit the Python script.
 * Mac OS/ Ubuntu 18.04 OS
+* Fotran95
 * Python 3.10.12
 * Textedit/ IDE - spyder or jupyter-notebook
 * Python libraries
