@@ -11,8 +11,8 @@ You will need to install the following software on your system in order to run/e
 * Python 3.10.12
 * Textedit/ IDE - spyder or jupyter-notebook
 * Python libraries
-  * Numpy
-  * Matplotlib
-  * Sklearn
-  * PIL
+  * numpy
+  * matplotlib
+  * astropy
+  * scipy
   * glob
