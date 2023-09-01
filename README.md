@@ -18,3 +18,4 @@ You will need to install the following software on your system in order to run/e
   * scipy
   * glob
   * datetime
+![picture alt](https://github.com/T3kan0/PowerBI/blob/main/trend_analysis.png)
