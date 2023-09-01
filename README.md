@@ -2,7 +2,7 @@
 Tekano Mbonani
 
 ## System Docs 📃
-A combination of codes developed for the calculation of the cross-correlation confidence intervals for a pair of light-curves. The project consists of three codes, the ***bootstrap_LC.py*** for creating artificial light-curves by randomly resampling a pair of light-curves with replacement, zdcf95_v2.f90 for executing cross-correlation analysis of the pairs of artificial light-curves, helloScript.sh is used to execute the previous code, and last is Ssignificance.py, which reads the artificial cross-correlations to determine 1-sigma, 2-sigma and 3-sigma confidence intervals.
+A combination of codes developed for the calculation of the cross-correlation confidence intervals for a pair of light-curves. The project consists of three codes, the ***bootstrap_LC.py*** for creating artificial light-curves by randomly resampling a pair of light-curves with replacement, ***zdcf95_v2.2.f90*** for executing cross-correlation analysis of the pairs of artificial light-curves, ***helloScriptph.sh*** is used to execute the previous code, and last is ***significance.py***, which reads the artificial cross-correlations to determine 1-sigma, 2-sigma and 3-sigma confidence intervals.
  
 
 ## Software Requirements 🔌
