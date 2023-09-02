@@ -2,7 +2,7 @@
 Tekano Mbonani
 
 ## System Docs 📃
-A combination of codes developed for the calculation of the cross-correlation confidence intervals for a pair of light-curves. The project consists of three codes, the ***bootstrap_LC.py*** for creating artificial light-curves by randomly resampling a pair of light-curves with replacement, ***zdcf95_v2.2.f90*** for executing cross-correlation analysis of the pairs of artificial light-curves, ***helloScriptpt.sh*** is used to execute the previous code, and last is ***significance.py***, which reads the artificial cross-correlations to determine 1-sigma, 2-sigma and 3-sigma confidence intervals.
+A combination of codes developed for the calculation of the z-transformed discrete cross-correlation function (ZDCF) confidence intervals for a pair of light-curves. The project consists of three codes, the ***bootstrap_LC.py*** for creating artificial light-curves by randomly resampling a pair of light-curves with replacement, ***zdcf95_v2.2.f90*** for executing cross-correlation analysis of the pairs of artificial light-curves, ***helloScriptpt.sh*** is used to execute the previous code, and last is ***significance.py***, which reads the artificial cross-correlations to determine 1-sigma, 2-sigma and 3-sigma confidence intervals.
  
 
 ## Software Requirements 🔌
@@ -28,5 +28,10 @@ This will create pair of randomly sampled artificial light-curves in N folders. 
 
 Now to run the ZDCF file on all N artificial light-curves, we employ the bash code ***helloScriptpt.sh***.
 > $ ./helloScriptpt.sh
-  
+
+This creates a ***.dcf*** file for all N pairs of artificial light-curves, which is what ***numpy*** will use to determine the significance. For this the user can run the final code, 
+> $ python significance.py
+
+The user can then save the calculated confidence intervals and use them on the ZDCF of the original pair of light-curves. In this repository, I had N=10, an example of the ZDCF of the artificial light-curves is shown below.
+
 ![picture alt](https://github.com/T3kan0/bootstrap_resample_with_replacement/blob/main/bootstrap/2sigma_intervals.png)
