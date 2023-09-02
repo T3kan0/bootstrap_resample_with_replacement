@@ -32,7 +32,7 @@ Now to run the ZDCF file on all N artificial light-curves, we employ the bash co
 This creates a ***.dcf*** file for all N pairs of artificial light-curves, which is what ***numpy*** will use to determine the significance. For this the user can run the final code, 
 > $ python significance.py
 
-The user can then save the calculated confidence intervals and use them on the ZDCF of the original pair of light-curves. In this repository, I had N=10, an example of the ZDCF of the artificial light-curves is shown below :arrow_heading_down:
+The user can then save the calculated confidence intervals and use them on the ZDCF of the original pair of light-curves (LC1 and LC2). In this repository, I had N = 10, an example of the ZDCF of the artificial light-curves is shown below :arrow_heading_down:
 
 <p align="center">
   <img align="center" width="700" height="600" src="https://github.com/T3kan0/bootstrap_resample_with_replacement/blob/main/bootstrap/2sigma_intervals.png">
