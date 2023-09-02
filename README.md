@@ -34,4 +34,4 @@ This creates a ***.dcf*** file for all N pairs of artificial light-curves, which
 
 The user can then save the calculated confidence intervals and use them on the ZDCF of the original pair of light-curves. In this repository, I had N=10, an example of the ZDCF of the artificial light-curves is shown below :arrow_heading_down:
 
-![picture alt](https://github.com/T3kan0/bootstrap_resample_with_replacement/blob/main/bootstrap/2sigma_intervals.png)
+![picture alt align = "center"](https://github.com/T3kan0/bootstrap_resample_with_replacement/blob/main/bootstrap/2sigma_intervals.png)
