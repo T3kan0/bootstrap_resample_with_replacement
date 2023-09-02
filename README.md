@@ -36,5 +36,5 @@ The user can then save the calculated confidence intervals and use them on the Z
 
 ![picture alt align = "center"](https://github.com/T3kan0/bootstrap_resample_with_replacement/blob/main/bootstrap/2sigma_intervals.png)
 
-<img align="center" width="100" height="100" src="https://github.com/T3kan0/bootstrap_resample_with_replacement/blob/main/bootstrap/2sigma_intervals.png">
+<img align="center" width="700" height="700" src="https://github.com/T3kan0/bootstrap_resample_with_replacement/blob/main/bootstrap/2sigma_intervals.png">
 
